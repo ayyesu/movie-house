@@ -16,7 +16,7 @@ import Tickets from './pages/Tickets';
 import User from './pages/User';
 
 axios.defaults.baseURL =
-    'https://movie-house-booking-production.up.railway.app/' ||
+    'https://api-movie-house-booking.onrender.com' ||
     import.meta.env.VITE_SERVER_URL ||
     'http://localhost:8080';
 axios.defaults.withCredentials = true;
